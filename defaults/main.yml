@@ -1,2 +1,9 @@
 ---
 # defaults file for owncloud-install
+http_proxy: ""
+app__owncloud__base: "/srv/"
+app__owncloud__package: "owncloud-8.1.12.tar.gz"
+app__owncloud__home: "/${app__owncloud__base}/${app__owncloud__package}"
+app__owncloud__checksum: "e6a544dedbd118edc10ac3e2d858c7646c5b365c5ada23f028d37b06770b329e"
+app__owncloud__download_upstream: "https://download.owncloud.org/community/owncloud-8.1.12.tar.bz2"
+
